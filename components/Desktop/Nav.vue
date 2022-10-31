@@ -3,7 +3,7 @@
 		<v-app-bar color="surface" height="80" class="el" :style="{
 			padding: $vuetify.breakpoint.mdAndUp ? '0px 100px' : '',
 		}" app>
-			<v-toolbar-title @click="$router.push('/')" class="text-md-h5 font-weight-bold pointer">FreeCommerce
+			<v-toolbar-title @click="$router.push('/')" class="text-md-h5 font-weight-bold pointer">Ecommerce-Nuxt2
 			</v-toolbar-title>
 			<v-spacer />
 

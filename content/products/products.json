@@ -2,7 +2,7 @@
 	{
 		"id": 1,
 		"name": "Silky Smooth Beats",
-		"onSale": false,
+		"onSale": true,
 		"tags": [
 			"Headphone",
 			"People"
@@ -16,15 +16,15 @@
 	{
 		"id": 2,
 		"name": "Lady Luck Is Smiling",
-		"onSale": true,
+		"onSale": false,
 		"tags": [
 			"Perfume",
 			"Women"
 		],
-		"image": "https://github.com/Ivan-Corporation/ecommerce-nuxt2/blob/master/assets/images/items/Lady%20Luck.png",
+		"image": "https://raw.githubusercontent.com/Ivan-Corporation/ecommerce-nuxt2/master/assets/images/items/Lady%20Luck.png",
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, possimus temporibus reprehenderit molestiae, doloribus eos obcaecati expedita, voluptatibus commodi  suscipit aliquid fuga modi alias fugiat nostrum. Accusantium incidunt quae modi",
 		"price": 3500,
-		"salePrice": 3000,
+		"salePrice": null,
 		"ratings": 4.5
 	},
 	{
@@ -35,7 +35,7 @@
 			"Nike",
 			"Men"
 		],
-		"image": "https://github.com/Ivan-Corporation/ecommerce-nuxt2/blob/master/assets/images/items/Nike%20Green.png",
+		"image": "https://raw.githubusercontent.com/Ivan-Corporation/ecommerce-nuxt2/master/assets/images/items/Nike%20Green.png",
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, possimus temporibus reprehenderit molestiae, doloribus eos obcaecati expedita, voluptatibus commodi  suscipit aliquid fuga modi alias fugiat nostrum. Accusantium incidunt quae modi",
 		"price": 10500,
 		"salePrice": 9000,
@@ -44,15 +44,15 @@
 	{
 		"id": 4,
 		"name": "New Home Living Room Set",
-		"onSale": false,
+		"onSale": true,
 		"tags": [
 			"Home",
 			"Pretty"
 		],
-		"image": "https://github.com/Ivan-Corporation/ecommerce-nuxt2/blob/master/assets/images/items/Living%20Room%20Set.png",
+		"image": "https://raw.githubusercontent.com/Ivan-Corporation/ecommerce-nuxt2/master/assets/images/items/Living%20Room%20Set.png",
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, possimus temporibus reprehenderit molestiae, doloribus eos obcaecati expedita, voluptatibus commodi  suscipit aliquid fuga modi alias fugiat nostrum. Accusantium incidunt quae modi",
 		"price": 100500,
-		"salePrice": null,
+		"salePrice": 9000,
 		"ratings": 4
 	},
 	{
