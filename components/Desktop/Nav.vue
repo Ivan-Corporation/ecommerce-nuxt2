@@ -7,17 +7,35 @@
 			</v-toolbar-title>
 			<v-spacer />
 
-			<v-btn nuxt to="/products" class="mr-md-2" icon>
-				<v-icon size="20">mdi-store-outline</v-icon>
-			</v-btn>
+
+			<div v-if="$auth.loggedIn">
+				<!-- user here -->
+				{{ $auth.user.email }}
+
+				<v-btn text>Logout</v-btn>
+
+			</div>
+			<div v-else>
+				<!-- user not here -->
+
+				<v-btn text to="/login">Login</v-btn>
+				<v-btn text to="/register">Register</v-btn>
+
+
+			</div>
+
+
 			<v-badge v-if="$store.state.cart.cart.length > 0" overlap :content="`${$store.state.cart.cart.length}`">
 				<v-btn nuxt to="/cart" icon>
 					<v-icon size="20">mdi-cart-outline</v-icon>
 				</v-btn>
 			</v-badge>
-			<v-btn v-else nuxt to="/cart" icon>
-				<v-icon size="20">mdi-cart-outline</v-icon>
+			<v-btn nuxt to="/products" class="mr-md-2" icon>
+				<v-icon size="20">mdi-store-outline</v-icon>
 			</v-btn>
+
+
+
 			<v-divider vertical class="mx-md-5 mx-2" />
 			<v-btn @click="toggleTheme" icon>
 				<v-icon size="20">mdi-brightness-7</v-icon>
