@@ -16,7 +16,7 @@
 	{
 		"id": 2,
 		"name": "Lady Luck Is Smiling",
-		"onSale": false,
+		"onSale": true,
 		"tags": [
 			"Perfume",
 			"Women"
@@ -24,7 +24,7 @@
 		"image": "https://raw.githubusercontent.com/Ivan-Corporation/ecommerce-nuxt2/master/assets/images/items/Lady%20Luck.png",
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, possimus temporibus reprehenderit molestiae, doloribus eos obcaecati expedita, voluptatibus commodi  suscipit aliquid fuga modi alias fugiat nostrum. Accusantium incidunt quae modi",
 		"price": 3500,
-		"salePrice": null,
+		"salePrice": 3200,
 		"ratings": 4.5
 	},
 	{
@@ -44,7 +44,7 @@
 	{
 		"id": 4,
 		"name": "New Home Living Room Set",
-		"onSale": true,
+		"onSale": false,
 		"tags": [
 			"Home",
 			"Pretty"
@@ -52,7 +52,7 @@
 		"image": "https://raw.githubusercontent.com/Ivan-Corporation/ecommerce-nuxt2/master/assets/images/items/Living%20Room%20Set.png",
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, possimus temporibus reprehenderit molestiae, doloribus eos obcaecati expedita, voluptatibus commodi  suscipit aliquid fuga modi alias fugiat nostrum. Accusantium incidunt quae modi",
 		"price": 100500,
-		"salePrice": 9000,
+		"salePrice": null,
 		"ratings": 4
 	},
 	{
