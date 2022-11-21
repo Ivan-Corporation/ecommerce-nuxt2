@@ -1515,10 +1515,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@sweetalert2/theme-material-ui@^5.0.8":
-  version "5.0.13"
-  resolved "https://registry.yarnpkg.com/@sweetalert2/theme-material-ui/-/theme-material-ui-5.0.13.tgz#5cbb607e7fb8b2021279a008f4fcda6c9afd9449"
-  integrity sha512-yJJXcfos03e2moc0VMb9EZRElVvs7c0BxmP4Jy2p8SqMDJ94JiSgn9fS+t4m4TCS9/WaMT86LNQkAX4vgWwKsw==
+"@sweetalert2/theme-material-ui@^5.0.15":
+  version "5.0.15"
+  resolved "https://registry.yarnpkg.com/@sweetalert2/theme-material-ui/-/theme-material-ui-5.0.15.tgz#a66937baab6bb1249083e7f0ee6abeba9c7ee8ab"
+  integrity sha512-9c5tbu5nkBm+Po4YpTXo+V50wUbo/iPzc08Gpc3HZK618fKuYp29YetX732lSIoi2BpKzNygJvG3fZmkF/gzCw==
 
 "@types/anymatch@*":
   version "3.0.0"
